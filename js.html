@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          function myFirst(name, age){
+              alert(`hello my name is ${name} and i am ${age} years old `)
+
+              function skills(){
+                  let skill=['html','css','JavaScript'];
+                  for(let i=0;i<skill.length;i++){
+                      alert('i know '+ skill[i]);
+                  }
+
+                 
+              }skills()
+
+            function checkAge(){
+               let age=prompt('how old are you')
+               if(age>18){
+                   alert('exactly data for learning IT')
+               }
+               else{
+                alert('super data for learning IT')
+               }
+            }  checkAge()   
+
+             function pow(num){
+                 return num**2;
+             }
+              alert(pow(5));
+          }
+          myFirst('umidjon', '15' )
+         </script>
+</body>
+</html>
